@@ -1,0 +1,42 @@
+:root {
+  /* Core Palette (Immutable per manifest.json) */
+  --bg: #06090F;
+  --surface: #0E1420;
+  --surface-elevated: #141D2D;
+  --surface-scrim: rgba(6, 9, 15, 0.90);
+
+  /* Ink & Contrast-Verified Neutrals (>= 5.1:1 across all surfaces) */
+  --ink: #E8EEF7;
+  --ink-muted: #8B9EB8;
+  --ink-dim: #7C90AB;
+
+  /* Functional Signal Accent */
+  --accent: #38BDF8;
+  --accent-bright: #7DD3FC;
+  --accent-dim: rgba(56, 189, 248, 0.16);
+  --border-subtle: rgba(139, 158, 184, 0.22);
+  --border-strong: rgba(56, 189, 248, 0.48);
+
+  /* Semantic Telemetry States */
+  --status-nominal: #34D399;
+  --status-warn: #F59E0B;
+  --status-peak: #F87171;
+
+  /* Typography */
+  --font-display: 'Archivo', system-ui, -apple-system, sans-serif;
+  --font-body: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Scale & Rhythm */
+  --text-body: 0.8125rem;
+  --text-caption: 0.75rem;
+  --text-label: 0.6875rem;
+  --text-brand: 1.25rem;
+  --text-drawer-h2: clamp(1.75rem, 3.2vw, 2.75rem);
+  --text-h1: clamp(2.75rem, 4.5vw, 4rem);
+
+  /* Radii & Easing */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --ease-editorial: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-expo-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
